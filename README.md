@@ -12,9 +12,11 @@ Linux проблемные пакеты VLC падает
 2) пакет overlay-scrollbar-gtk2
 
 1) способ
+
 sudo apt purge overlay-scrollbar overlay-scrollbar-gtk2
 
 2) способ если пакеты в apt не видны но они есть
+
 sudo apt install --reinstall overlay-scrollbar overlay-scrollbar-gtk2 && sudo apt purge overlay-scrollbar overlay-scrollbar-gtk2
 
 Все вторичные перепечатанные статьи указывать ссылку именно сюда. 13.05.2019
